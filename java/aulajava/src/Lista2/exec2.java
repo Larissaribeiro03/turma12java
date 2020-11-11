@@ -8,7 +8,6 @@ public class exec2 {
 	{
 		Scanner leia = new Scanner(System.in);
 		
-		int C, N, E; //código, numero de horas trabalhadas e excesso de horas
 		int horasTrabalhadas, horasExcedentes; 
 		double salario, salarioExcedente, salarioTotal;
 		
