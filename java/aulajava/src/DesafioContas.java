@@ -90,20 +90,8 @@ String contas[]= {"Conta Poupança","Conta Corrente","Conta Especial","Conta Empr
 					numeroOperacoes++;
 					
 				}
-		
-				
-				
-				
-				
-				
-				
-				
-				
+			
 			}
-
-
-
-
 
 			//- DEBITO E CREDITO POR DIA
 			//- SE SALDO MENOR QUE ZERO PARA O MOVIMENTO SOLICITAR USAR DO LIMITE E MOSTRA QUANTO SOBROU DO LIMITE
