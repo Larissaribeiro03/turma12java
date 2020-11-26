@@ -12,6 +12,8 @@ create table funcionarios (
 		primary key (id)
         );
         
+        drop table funcionarios;
+        
         insert into funcionarios(nome,sexo,ano_nascimento, nacionalidade, salario) values 
         ("Lucia", "F",1997, DEFAULT, 1500.00),
 		("Marcos", "M",1980, DEFAULT, 3000.00),
@@ -21,5 +23,12 @@ create table funcionarios (
         
         SELECT * FROM funcionarios;
         
-        select * from funcionarios where salario >= 2000.00
+        select * from funcionarios where salario >= 2000.00;
+        
+        update funcionarios Set salario = 1700.00
+		where nome = "Lucas";
+        
+        
+
+
         
